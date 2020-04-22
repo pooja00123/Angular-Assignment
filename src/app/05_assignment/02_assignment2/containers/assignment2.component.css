@@ -1,8 +1,8 @@
 .your-code {
   margin-top: 40px;
-  border: 2px solid darkmagenta;
+  border: 2px solid magenta;
 }
 
 .active {
-  background-color: #0c5460;
+  background-color: yellow;
 }

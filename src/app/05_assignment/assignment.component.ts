@@ -1,19 +1,18 @@
-import { Component } from '@angular/core';
-
+import { Component, Output } from '@angular/core';
+ 
 export interface Todo {
   id: string;
   type: string;
   description: string;
   completed: boolean;
 }
-
+ 
 @Component({
   selector: 'app-assignment',
   templateUrl: './assignment.component.html',
   styleUrls: ['./assignment.component.css']
 })
 export class AssignmentComponent {
-
   todos: Todo[] = [
     { id: 'TODO_1', type: 'Teach TypeScript', description: 'TypeScript is an awesome tech', completed: false },
     { id: 'TODO_2', type: 'Teach Angular', description: 'Angular is the future', completed: true },
